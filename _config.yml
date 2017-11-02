@@ -1,2 +1,5 @@
 name: Kevin Hira
 markdown: kramdown
+
+sass:
+    sass_dir: css

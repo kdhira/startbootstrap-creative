@@ -1,0 +1,38 @@
+---
+---
+
+.bg-primary-link {
+    color: inherit;
+    font-style: italic;
+}
+
+.text-white a, .text-white a:active, .text-white a:visited, .text-white a:hover, .text-white a:focus {
+    color: inherit;
+    font-style: italic;
+}
+
+.extra-row {
+    margin-top: 20px;
+}
+
+.image-face {
+    background-image: url({{ site.github.url }}/img/face.png);
+    width: 128px;
+    height: 128px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    border-radius: 128px;
+}
+
+.intro-text {
+    background-color: rgba(85,85,85,0.3);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header.masthead {
+    background-image: url({{ sit.github.url}}/img/header.jpg);
+}

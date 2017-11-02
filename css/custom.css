@@ -34,5 +34,5 @@
 }
 
 header.masthead {
-    background-image: url({{ sit.github.url}}/img/header.jpg);
+    background-image: url({{ site.github.url }}/img/header.jpg);
 }

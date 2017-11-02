@@ -22,3 +22,8 @@
 .linkedin-icon {
     background-image: url(../img/linkedin.png);
 }
+
+.footer {
+    margin-top: 30px;
+    font-size: 0.7em;
+}

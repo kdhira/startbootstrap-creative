@@ -1,0 +1,24 @@
+.contact-icon {
+    margin: 3px auto;
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.github-icon {
+    background-image: url(/img/github.png);
+}
+
+.twitter-icon {
+    background-image: url(/img/twitter.png);
+}
+
+.facebook-icon {
+    background-image: url(/img/fb.png);
+}
+
+.linkedin-icon {
+    background-image: url(/img/linkedin.png);
+}

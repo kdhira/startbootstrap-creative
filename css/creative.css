@@ -56,6 +56,18 @@ a {
     margin-top: 20px;
 }
 
+.image-face {
+    background-image: url(/img/face.png);
+    width: 128px;
+    height: 128px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    border-radius: 128px;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-font) }

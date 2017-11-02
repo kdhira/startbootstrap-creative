@@ -27,6 +27,12 @@ a {
   a:focus, a:hover {
     color: #f05f40; }
 
+.bg-primary-link {
+    color: inherit;
+    font-style: italic;
+}
+
+
 h1,
 h2,
 h3,
@@ -215,8 +221,6 @@ header.masthead {
     width: 100%;
     height: 100%;
     text-align: center;
-    opacity: 0;
-    color: white;
     background: rgba(240, 95, 64, 0.9);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -237,15 +241,13 @@ header.masthead {
         text-transform: uppercase; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 18px; }
-  .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1; }
-  .portfolio-box:focus {
-    outline: none; }
   @media (min-width: 768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-      font-size: 16px; }
+      font-size: 0.75rem; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-      font-size: 22px; } }
+      font-size: 2rem; }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
+      font-size: 0.75rem; } }
 
 .call-to-action {
   padding: 50px 0; }

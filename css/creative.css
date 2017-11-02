@@ -68,6 +68,12 @@ a {
     border-radius: 128px;
 }
 
+.intro-text {
+    background-color: rgba(85,85,85,0.3);
+    border-radius: 5px;
+    padding: 5px;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-font) }

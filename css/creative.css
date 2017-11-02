@@ -32,6 +32,15 @@ a {
     font-style: italic;
 }
 
+.text-white a, .text-white a:active, .text-white a:visited, .text-white a:hover, .text-white a:focus {
+    color: inherit;
+    font-style: italic;
+}
+
+.extra-row {
+    margin-top: 20px;
+}
+
 
 h1,
 h2,
@@ -229,7 +238,7 @@ header.masthead {
       position: absolute;
       top: 50%;
       width: 100%;
-      transform: translateY(-50%);
+      /*transform: translateY(-50%);*/
       text-align: center; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {

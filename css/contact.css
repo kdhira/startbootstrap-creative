@@ -22,3 +22,7 @@
 .linkedin-icon {
     background-image: url(../img/linkedin.png);
 }
+
+#contact {
+    background-color: #444444 !important;
+}

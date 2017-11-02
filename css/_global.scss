@@ -59,17 +59,17 @@ section {
   margin-top: 0;
 }
 
-::-moz-selection {
-  color: white;
-  background: $gray-darker;
-  text-shadow: none;
-}
-
-::selection {
-  color: white;
-  background: $gray-darker;
-  text-shadow: none;
-}
+// ::-moz-selection {
+//   color: white;
+//   background: $gray-darker;
+//   text-shadow: none;
+// }
+//
+// ::selection {
+//   color: white;
+//   background: $gray-darker;
+//   text-shadow: none;
+// }
 
 img::selection {
   color: white;
@@ -81,6 +81,6 @@ img::-moz-selection {
   background: transparent;
 }
 
-body {
-  -webkit-tap-highlight-color: $gray-darker;
-}
+// body {
+//   -webkit-tap-highlight-color: $gray-darker;
+// }

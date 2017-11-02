@@ -239,14 +239,14 @@ header.masthead {
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-      position: absolute;
+      /*position: absolute;*/
       top: 50%;
       width: 100%;
       /*transform: translateY(-50%);*/
-      text-align: center; }
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+      padding: 0px 15px;
+      text-align: right; }
+      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content div,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        padding: 0 15px;
         font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 14px;
